@@ -1,3 +1,137 @@
-.primo{
-    background-color: red;
+*{
+    font-family: 'Lato', sans-serif;
 }
+
+h1, h2, h3, h4 ,h5, h6 , .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Roboto', sans-serif;
+} 
+/*navbar*/
+.iconav{
+    transform: rotate(90deg);
+    margin-left: 0;
+}
+.moreplus{
+    color:#ff764d !important ;
+}
+.navbar{
+    font-size: 20px!important;
+}
+.trylive{
+    color: #0000ff !important;
+}
+.navbar{
+    border-bottom: solid 0.1px beige;
+    display: flex;
+    justify-content:start!important;
+}
+.rigasottonavbar{
+    text-decoration:none;
+    font-size: 20px;
+    color:#ff764d  ;
+}
+.rigasottonavbar2{
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
+}
+/*finenavbar*/
+
+/* header */
+
+.imgheader{
+    margin: 0 40px 0 140px;
+}
+
+/* firstsection */
+.firstsection{
+    word-spacing: 10px;
+}
+.linkdecoration{
+    text-decoration: none;
+}
+.paragrafosottoheader{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 30px 0 0 200px;
+    text-align: left;
+}
+.titsottoheader{
+    margin: 30px 0 0 200px;
+    text-align: left;
+}
+/* secondsection */
+.coldx{
+    height: 120vh;
+    background-color: #fbffa7;
+    /* width:50vw; */
+    position: relative;
+}
+.coldx2{
+    height: 100vh;
+    position: relative;
+}
+    
+.imm1{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 220px;
+}
+.imm2{
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 200px;
+}
+/* endsecondsection */
+/* thirdsection */
+.testosottofoto{
+    margin-left: 10px;
+}
+/* videosection */
+.immvideo{
+    margin-left: 195px;
+}
+
+/* mediaquerynavbar */
+ @media screen and (max-width:700px) {
+    .menu{
+        color: black;
+        font-size: 20px;
+        margin: 0;
+    }
+    .navbar-toggler{
+        border: none!important;
+        outline: none!important;
+    }
+}
+/* mediaqueyheader */
+@media screen and (max-width:700px) {
+    .imgheader{
+        margin: 0 0 0 0px;
+        width: 90vw;
+        height: 50vh;
+    }
+}
+/* mediaqueryimmagini */
+@media screen and (max-width:900px) {
+    .imm1{
+        width: 20vw;
+        height: 20vh;
+    }
+    .imm2{
+        width: 20vw;
+        height: 20vh;
+    }
+    .coldx2{
+        height: 20vh;
+     
+    }
+    .immvideo{
+        width: 50vw;
+        height: 15vh;
+    }
+}
+    
+
+
